@@ -191,80 +191,80 @@ function kataBonus5() {
 }
 
 function showResults (valor) {
-    
+
 }
 
 
 const box = document.getElementById('box1')
 
 const kata1x = document.createElement('p')
-kata1x.innerHTML = kata1()
+kata1x.innerHTML = '<b>Kata 1 = </b> ' + kata1()
 box.appendChild(kata1x)
 
 const kata2x = document.createElement('p')
-kata2x.innerHTML = kata2()
+kata2x.innerHTML = '<b>Kata 2 = </b> ' + kata2()
 box.appendChild(kata2x)
 
 const kata3x = document.createElement('p')
-kata3x.innerHTML = kata3()
+kata3x.innerHTML = '<b>Kata 3 = </b> ' + kata3()
 box.appendChild(kata3x)
 
 const kata4x = document.createElement('p')
-kata4x.innerHTML = kata4()
+kata4x.innerHTML = '<b>Kata 4 = </b> ' + kata4()
 box.appendChild(kata4x)
 
 const kata5x = document.createElement('p')
-kata5x.innerHTML = kata5()
+kata5x.innerHTML = '<b>Kata 5 = </b> ' + kata5()
 box.appendChild(kata5x)
 
 const kata6x = document.createElement('p')
-kata6x.innerHTML = kata6()
+kata6x.innerHTML = '<b>Kata 6 = </b> ' + kata6()
 box.appendChild(kata6x)
 
 const kata7x = document.createElement('p')
-kata7x.innerHTML = kata7()
+kata7x.innerHTML = '<b>Kata 7 = </b> ' + kata7()
 box.appendChild(kata7x)
 
 const kata8x = document.createElement('p')
-kata8x.innerHTML = kata8()
+kata8x.innerHTML = '<b>Kata 8 = </b> ' + kata8()
 box.appendChild(kata8x)
 
 const kata9x = document.createElement('p')
-kata9x.innerHTML = kata9()
+kata9x.innerHTML = '<b>Kata 9 = </b> ' + kata9()
 box.appendChild(kata9x)
 
 const kata10x = document.createElement('p')
-kata10x.innerHTML = kata10()
+kata10x.innerHTML = '<b>Kata 10 = </b> ' + kata10()
 box.appendChild(kata10x)
 
 const kata11x = document.createElement('p')
-kata11x.innerHTML = kata11()
+kata11x.innerHTML = '<b>Kata 11 = </b> ' + kata11()
 box.appendChild(kata11x)
 
 const kata12x = document.createElement('p')
-kata12x.innerHTML = kata12()
+kata12x.innerHTML = '<b>Kata 12 = </b> ' + kata12()
 box.appendChild(kata12x)
 
 const kata13x = document.createElement('p')
-kata13x.innerHTML = kata13()
+kata13x.innerHTML = '<b>Kata 13 = </b> ' + kata13()
 box.appendChild(kata13x)
 
 const kata14x = document.createElement('p')
-kata14x.innerHTML = kata14()
+kata14x.innerHTML = '<b>Kata 14 = </b> ' + kata14()
 box.appendChild(kata14x)
 
 const kata15x = document.createElement('p')
-kata15x.innerHTML = kata15()
+kata15x.innerHTML = '<b>Kata 15 = </b> ' + kata15()
 box.appendChild(kata15x)
 
 const kata16x = document.createElement('p')
-kata16x.innerHTML = kata16()
+kata16x.innerHTML = '<b>Kata 16 = </b> ' + kata16()
 box.appendChild(kata16x)
 
 const kata17x = document.createElement('p')
-kata17x.innerHTML = kata17()
+kata17x.innerHTML = '<b>Kata 17 = </b> ' + kata17()
 box.appendChild(kata17x)
 
 const kata18x = document.createElement('p')
-kata18x.innerHTML = kata18()
+kata18x.innerHTML = '<b>Kata 18 = </b> ' + kata18()
 box.appendChild(kata18x)
