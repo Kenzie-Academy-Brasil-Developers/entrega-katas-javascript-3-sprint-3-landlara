@@ -1,13 +1,11 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
-
-function showResults (valor) {
+function showResults (valor, n) {
     let paragrafo = document.createElement('p')
     let box = document.getElementById('box1')
     box.appendChild(paragrafo)
-    paragrafo.innerHTML = `<b>Kata:</b> ${valor}`
+    paragrafo.innerHTML = `<b>Kata ${n}: </b> ${valor}`  
 }
-
 
 function kata1() {
     result = []
@@ -16,7 +14,7 @@ function kata1() {
     }
     return result
 }
-showResults(kata1())
+showResults(kata1(), 1)
 
 function kata2() {
     let result = []
@@ -25,7 +23,7 @@ function kata2() {
     }
     return result
 }
-showResults(kata2())
+showResults(kata2(), 2)
 
 function kata3() {
     let result = []
@@ -34,7 +32,7 @@ function kata3() {
     }
     return result
 }
-showResults(kata3())
+showResults(kata3(), 3)
 
 function kata4() {  
     let result = []
@@ -43,7 +41,7 @@ function kata4() {
     }
     return result
 }
-showResults(kata4())
+showResults(kata4(), 4)
 
 function kata5() {
     let result = []
@@ -52,7 +50,7 @@ function kata5() {
     }
     return result
 }
-showResults(kata5())
+showResults(kata5(), 5)
 
 function kata6() {
     let result = []
@@ -63,7 +61,7 @@ function kata6() {
     }
     return result
 }
-showResults(kata6())
+showResults(kata6(), 6)
 
 function kata7() {
     let result = []
@@ -74,7 +72,7 @@ function kata7() {
     }
     return result 
 }
-showResults(kata7())
+showResults(kata7(), 7)
 
 function kata8() {
     let result = []
@@ -85,18 +83,18 @@ function kata8() {
     }
     return result
 }
-showResults(kata8())
+showResults(kata8(), 8)
 
 function kata9() {
     let result = []
     for (let i = 1; i <= 100; i++) {
-        if ( i % 5 === 0 ) {
+        if ( i % 5 === 0 && i % 2 === 1) {
             result.push(i)
         }
     }
     return result 
 }
-showResults(kata9())
+showResults(kata9(), 9)
 
 function kata10() {
     let result = []
@@ -105,7 +103,7 @@ function kata10() {
     }
     return result
 }
-showResults(kata10())
+showResults(kata10(), 10)
 
 function kata11() {
     let result = []
@@ -116,7 +114,7 @@ function kata11() {
     }
     return result
 }
-showResults(kata11())
+showResults(kata11(), 11)
 
 
 function kata12() {
@@ -128,7 +126,7 @@ function kata12() {
     }
     return result
 }
-showResults(kata12())
+showResults(kata12(), 12)
 
 
 function kata13() {
@@ -140,7 +138,7 @@ function kata13() {
    }
    return result
 }
-showResults(kata13())
+showResults(kata13(), 13)
 
 
 function kata14() {
@@ -150,7 +148,7 @@ function kata14() {
     }
     return result
 }
-showResults(kata14())
+showResults(kata14(), 14)
 
 
 function kata15() {
@@ -160,7 +158,7 @@ function kata15() {
     }
     return result
 }
-showResults(kata15())
+showResults(kata15(), 15)
 
 
 function kata16() {
@@ -170,7 +168,7 @@ function kata16() {
     }
     return result
 }
-showResults(kata16())
+showResults(kata16(), 16)
 
 
 function kata17() {
@@ -184,7 +182,7 @@ function kata17() {
     }
     return result
 }
-showResults(kata17())
+showResults(kata17(), 17)
 
 
 function kata18() {
@@ -198,31 +196,4 @@ function kata18() {
     }
     return result
 }
-showResults(kata18())
-
-
-/**
- * Daqui em diante são os bônus, por sua conta e risco
- */
-
-function kataBonus1() {
-    // implemente o código do kata bonus 1 aqui
-}
-
-function kataBonus2() {
-    // implemente o código do kata bonus 2 aqui
-}
-
-function kataBonus3() {
-    // implemente o código do kata bonus 3 aqui
-}
-
-function kataBonus4() {
-    // implemente o código do kata bonus 4 aqui
-}
-
-function kataBonus5() {
-    // implemente o código do kata bonus 5 aqui
-}
-
-
+showResults(kata18(), 18)
